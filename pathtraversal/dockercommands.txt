@@ -1,0 +1,2 @@
+sudo docker build . -t apachepathtraverse #Build docker file
+sudo docker run -p 4444:80 --rm -d apachepathtraverse #Binds port 80 of container to host's port 4444 and starts the server.
